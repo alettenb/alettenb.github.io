@@ -19,6 +19,10 @@
 .site-header a {
   text-decoration: none;
   color: white;
+  transition-duration: .5s;
+}
+.site-header a:hover {
+  color: darkgrey;
 }
 .site-title {
   font-size: 26px;
