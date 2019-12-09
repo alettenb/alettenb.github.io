@@ -7,6 +7,7 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  background-color: $background-color;
 }
 
 /*
@@ -16,6 +17,7 @@ dl, dd, ol, ul, figure {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
+  font-color: white;
   font-weight: bold;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -88,7 +90,7 @@ dd {
 */
 
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: none;
 }
 
