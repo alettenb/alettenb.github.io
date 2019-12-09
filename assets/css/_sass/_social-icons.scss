@@ -1,4 +1,4 @@
-$icon-transition-time: 1.0s;
+$icon-transition-time: .3s;
 $envelope-color: #f39c12;
 $twitter-color: #00aced;
 $instagram-color: #375989;
@@ -11,68 +11,61 @@ $medium-color: #00AB6C;
 $codepen-color: black;
 $rss-color: #ff6600;
 
-@mixin social-media-icon($color, $transition){
-  -webkit-transition: $transition;
-  -o-transition: $transition;
-  -ms-transition: $transition;
-  -moz-transition: $transition;
-  transition: $transition;
-  &:hover{
-    color: $color;
-  }
+@mixin social-media-icon($color){
+  
 }
 
 .fa-envelope {
   padding: 5px;
-  @include social-media-icon($envelope-color, $icon-transition-time);
+  @include social-media-icon($envelope-color);
 }
 
 .fa-twitter {
   padding: 5px;
-  @include social-media-icon($twitter-color, $icon-transition-time);
+  @include social-media-icon($twitter-color);
 }
 
 .fa-instagram {
   padding: 5px;
-  @include social-media-icon($instagram-color, $icon-transition-time);
+  @include social-media-icon($instagram-color);
 }
 
 .fa-github {
   padding: 5px;
-  @include social-media-icon($github-color, $icon-transition-time);
+  @include social-media-icon($github-color);
 }
 
 .fa-linkedin {
   padding: 5px;
-  @include social-media-icon($linkedin-color, $icon-transition-time);
+  @include social-media-icon($linkedin-color);
 }
 
 .fa-facebook {
   padding: 5px;
-  @include social-media-icon($facebook-color, $icon-transition-time);
+  @include social-media-icon($facebook-color);
 }
 
 .fa-google-plus {
   padding: 5px;
-  @include social-media-icon($google-color, $icon-transition-time);
+  @include social-media-icon($google-color);
 }
 
 .fa-pinterest {
   padding: 5px;
-  @include social-media-icon($pinterest-color, $icon-transition-time);
+  @include social-media-icon($pinterest-color);
 }
 
 .fa-medium {
   padding: 5px;
-  @include social-media-icon($medium-color, $icon-transition-time);
+  @include social-media-icon($medium-color);
 }
 
 .fa-codepen {
   padding: 5px;
-  @include social-media-icon($codepen-color, $icon-transition-time);
+  @include social-media-icon($codepen-color);
 }
 
 .fa-rss-square {
   padding: 5px;
-  @include social-media-icon($rss-color, $icon-transition-time);
+  @include social-media-icon($rss-color);
 }
