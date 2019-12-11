@@ -9,6 +9,7 @@ title: Home
   <a 
     {% if post.title == 'Photography' %} href="{{ site.github.url }}/photography"
     {% elsif post.title == 'Blog' %} href="{{ site.github.url }}/blog"
+    {% elsif post.title == 'Projects' %} href="{{ site.github.url }}/projects"
     {% else %}  href="{{ site.github.url }}{{ post.url }}"  {% endif %}>
     <div class="featured-posts" {% if post.image %}style="background-image:url({{ site.github.url }}/assets/img/{{ post.image }})"{% endif %}>
       <h2><span>{{ post.title }}</span></h2>
