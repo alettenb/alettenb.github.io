@@ -7,10 +7,7 @@ disqus:
 google-ID: ''
 
 menu:
-- {name: 'Learning Resources', folder: 'pages', file: 'resources.html'}
-- {name: 'Sample Posts', folder: 'pages', file: 'sample-posts.html'}
-- {name: 'Documentation', folder: 'pages', file: 'documentation.html'}
-- {name: 'Microtubule Catastrophe', folder: 'microtubule_catastrophe'}
+- {name: 'CV', folder: 'pages', file: 'facts.html'}
 - {name: 'About', folder: 'pages', file: 'about.html'}
 - {name: 'Contact', folder: 'pages', file: 'contact.html'}
 

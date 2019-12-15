@@ -13,7 +13,7 @@
   transition-duration: .5s;
 }
 .footer a:hover {
-  color: darkgrey;
+  color: $accent-color;
 }
 @media (max-width: $container-width) {
   .footer {
